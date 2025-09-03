@@ -33,6 +33,18 @@
                     </div>
                 </a>
             </div>
+            <div class="row justify-content-center mt-5">
+            <!-- Example member card -->
+            <div class="col-md-3 mb-4 animate__animated animate__zoomIn animate__delay-2s">
+                <a href="{{ url('/crystal') }}" class="text-decoration-none">
+                    <div class="card shadow-lg border-0 rounded-4 h-100 hover-card member-card">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-dark">Crystal Joy</h5>
+                            <p class="card-text text-secondary">View Biography</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
                 
 
             <!-- Add more members here in same format -->
