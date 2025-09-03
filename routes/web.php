@@ -7,6 +7,8 @@ Route::get('/', function () {
         ['name' => 'Dixie', 'route' => 'dixie'],
         ['name' => 'Pariñas', 'route' => 'pariñas'],
         ['name' => 'Crystal', 'route' => 'crystal'],
+         ['name' => 'brian', 'route' => 'brian']
+
         // add more members here
     ];
 
@@ -17,4 +19,5 @@ Route::get('/', function () {
 Route::view('/dixie', 'members.dixie')->name('dixie');
 Route::view('/pariñas', 'members.pariñas')->name('pariñas');
 Route::view('/crystal', 'members.crystal')->name('crystal');
+Route::view('/brian', 'members.brian')->name('brian');
 
